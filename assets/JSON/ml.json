@@ -1,0 +1,239 @@
+[
+    {
+      "term": "Algorithm",
+      "description": "A set of rules and procedures used by machine learning models to analyze data, identify patterns, and make decisions. Common ML algorithms include decision trees, neural networks, and support vector machines. Algorithms help in training models to improve their predictive accuracy and performance."
+    },
+    {
+      "term": "Artificial Neural Network (ANN)",
+      "description": "A computational model inspired by the human brain, consisting of layers of interconnected neurons (nodes). It processes input data, applies activation functions, and adjusts weights using backpropagation to learn complex patterns. ANNs are widely used in deep learning applications like image recognition and natural language processing."
+    },
+    {
+      "term": "Activation Function",
+      "description": "A function applied to neural network nodes to introduce non-linearity, allowing models to learn complex patterns. Common functions include ReLU, Sigmoid, and Tanh. Activation functions help determine whether a neuron should be activated based on weighted inputs."
+    },
+    {
+      "term": "Anomaly Detection",
+      "description": "A technique used to identify unusual patterns or outliers in data that do not conform to expected behavior. It is widely used in fraud detection, network security, and predictive maintenance."
+    },
+    {
+      "term": "Autoencoder",
+      "description": "A type of neural network used for unsupervised learning by encoding and decoding data to reconstruct inputs. Autoencoders are commonly used in anomaly detection and data compression."
+    },
+    {
+      "term": "Backpropagation",
+      "description": "A supervised learning technique used to train neural networks. It calculates the error between predicted and actual outputs and propagates the error backward through the network, adjusting weights using gradient descent. This iterative process improves model accuracy by minimizing loss functions."
+    },
+    {
+      "term": "Bias",
+      "description": "A type of error in machine learning models caused by incorrect assumptions during training. High bias leads to underfitting, where the model fails to capture the complexity of the data. Addressing bias involves choosing appropriate algorithms and improving data representation."
+    },
+    {
+      "term": "Bagging",
+      "description": "A machine learning ensemble technique that combines multiple models trained on different subsets of data to improve accuracy. Random Forest is a common example of bagging."
+    },
+    {
+      "term": "Batch Normalization",
+      "description": "A technique used in deep learning to normalize inputs across a mini-batch, stabilizing learning and improving convergence speed. It reduces internal covariate shift and enhances model performance."
+    },
+    {
+      "term": "Bayesian Networks",
+      "description": "A probabilistic graphical model that represents a set of variables and their conditional dependencies. Used in decision-making, diagnostics, and risk analysis."
+    },
+    {
+      "term": "Boosting",
+      "description": "An ensemble learning method that improves weak learners by training models sequentially, giving more weight to misclassified instances. Examples include AdaBoost, Gradient Boosting, and XGBoost."
+    },
+    {
+      "term": "Classification",
+      "description": "A supervised learning task where a model categorizes input data into predefined classes or labels. Examples include spam detection, sentiment analysis, and medical diagnosis. Common classification algorithms include logistic regression, decision trees, and support vector machines."
+    },
+    {
+      "term": "Clustering",
+      "description": "An unsupervised learning technique that groups similar data points based on shared features. Clustering helps discover hidden patterns in data. Popular algorithms include K-Means, DBSCAN, and hierarchical clustering, used in customer segmentation, anomaly detection, and image processing."
+    },
+    {
+      "term": "Convolutional Neural Network (CNN)",
+      "description": "A type of deep learning model designed for image processing. CNNs use convolutional layers to detect patterns like edges and textures, followed by pooling layers to reduce dimensionality. They power applications like facial recognition and medical image analysis."
+    },
+    {
+      "term": "Cross-Validation",
+      "description": "A technique used to evaluate machine learning models by dividing data into training and validation sets. K-fold cross-validation is a common method that splits data into multiple subsets to ensure robust performance testing and prevent overfitting."
+    },
+    {
+      "term": "Collaborative Filtering",
+      "description": "A recommendation system technique that predicts user preferences based on historical interactions and similar user behavior. It is commonly used in e-commerce and streaming platforms."
+    },
+    {
+      "term": "Confusion Matrix",
+      "description": "A table used to evaluate classification models by comparing predicted and actual outcomes. It includes True Positives, False Positives, True Negatives, and False Negatives."
+    },
+    {
+      "term": "Cost Function",
+      "description": "A function that measures the error between predicted and actual values in a model. It guides optimization algorithms to adjust parameters and improve performance."
+    },
+    {
+      "term": "Covariate Shift",
+      "description": "A problem in machine learning where the distribution of input features changes between training and testing data, affecting model performance."
+    },
+    {
+      "term": "Data Augmentation",
+      "description": "A technique used to artificially expand training datasets by applying transformations like rotation, scaling, and flipping to existing data. It improves model generalization, especially in image and speech recognition tasks, by exposing the model to diverse variations."
+    },
+    {
+      "term": "Decision Tree",
+      "description": "A machine learning model that splits data into branches based on feature values, forming a tree-like structure. Each internal node represents a decision based on a feature, and leaves represent outcomes. Decision trees are simple, interpretable, and used in classification and regression tasks."
+    },
+    {
+      "term": "Deep Learning",
+      "description": "A subset of machine learning focused on neural networks with multiple layers. Deep learning models, such as CNNs and RNNs, process vast amounts of data to learn intricate patterns. They power advancements in speech recognition, computer vision, and natural language processing."
+    },
+    {
+      "term": "Dropout",
+      "description": "A regularization technique used in neural networks to prevent overfitting. During training, dropout randomly deactivates a fraction of neurons in each layer, forcing the model to develop redundant, robust features instead of relying on specific nodes."
+    },
+    {
+      "term": "Data Imputation",
+      "description": "A technique used to handle missing data by filling in missing values using mean, median, mode, or predictive models."
+    },
+    {
+      "term": "Dropout Layer",
+      "description": "A regularization technique in neural networks that randomly drops connections during training to prevent overfitting and improve generalization."
+    },
+    {
+      "term": "Early Stopping",
+      "description": "A technique that stops training when a model's performance on validation data begins to deteriorate, preventing overfitting."
+    },
+    {
+      "term": "Embedding",
+      "description": "A representation of high-dimensional data in a lower-dimensional space, commonly used in natural language processing for word vectors."
+    },
+    {
+      "term": "Ensemble Learning",
+      "description": "A method that combines multiple machine learning models to achieve better predictive performance than individual models alone."
+    },
+    {
+      "term": "Expectation-Maximization (EM)",
+      "description": "An iterative algorithm used to estimate parameters in probabilistic models with hidden variables, such as Gaussian Mixture Models."
+    },
+    {
+      "term": "Epoch",
+      "description": "A full pass through the entire training dataset during the learning process. Multiple epochs are used to iteratively update model weights until performance stabilizes. Too few epochs result in underfitting, while too many lead to overfitting."
+    },
+    {
+      "term": "Exploratory Data Analysis (EDA)",
+      "description": "A process of analyzing and visualizing data to understand its structure, detect patterns, and identify anomalies. EDA involves statistical summaries, histograms, scatter plots, and correlation matrices to guide model selection and preprocessing."
+    },
+    {
+      "term": "Feature Engineering",
+      "description": "The process of selecting, transforming, or creating new input variables (features) to improve machine learning model performance. Effective feature engineering enhances pattern recognition, reduces dimensionality, and eliminates irrelevant or redundant data."
+    },
+    {
+      "term": "Feature Scaling",
+      "description": "A preprocessing step that standardizes feature values to a common range to improve model performance. Methods include Min-Max Scaling, which normalizes values between 0 and 1, and Standardization, which centers values around zero with unit variance."
+    },
+    {
+      "term": "F1 Score",
+      "description": "A performance metric for classification models, calculated as the harmonic mean of precision and recall, balancing both metrics."
+    },
+    {
+      "term": "Feature Extraction",
+      "description": "A dimensionality reduction technique that transforms raw data into informative features, improving model efficiency and accuracy."
+    },
+    {
+      "term": "Feature Selection",
+      "description": "The process of identifying the most relevant features for a machine learning model to reduce complexity and improve performance."
+    },
+    {
+      "term": "GAN (Generative Adversarial Network)",
+      "description": "A deep learning model consisting of a generator and a discriminator that work adversarially to produce realistic synthetic data."
+    },
+    {
+      "term": "Gradient Boosting",
+      "description": "An ensemble learning technique that builds models sequentially, correcting errors from previous iterations to improve predictive performance."
+    },
+    {
+      "term": "Grid Search",
+      "description": "A hyperparameter tuning technique that systematically tests different parameter combinations to find the optimal model configuration."
+    },
+    {
+      "term": "Gradient Descent",
+      "description": "An optimization algorithm that minimizes a model’s loss function by adjusting parameters (weights) in the direction of the steepest descent. Variants like Stochastic Gradient Descent (SGD) and Adam optimizer improve training efficiency and convergence speed."
+    },
+    {
+      "term": "Hyperparameter Tuning",
+      "description": "The process of optimizing model parameters, such as learning rate, batch size, and number of layers, to achieve better performance. Techniques like Grid Search and Bayesian Optimization help automate the search for optimal hyperparameters."
+    },
+    {
+      "term": "Hierarchical Clustering",
+      "description": "An unsupervised learning method that builds a tree-like structure of nested clusters based on similarity measures."
+    },
+    {
+      "term": "Hinge Loss",
+      "description": "A loss function used in Support Vector Machines (SVMs) to maximize the margin between classes for better classification."
+    },
+    {
+      "term": "K-Means Clustering",
+      "description": "A popular unsupervised learning algorithm that partitions data into K clusters. It iteratively assigns data points to the nearest centroid, recalculates cluster centers, and repeats until convergence. K-Means is used in customer segmentation and anomaly detection."
+    },
+    {
+      "term": "Kernel Trick",
+      "description": "A method used in SVMs and other algorithms to transform data into higher dimensions, making it separable in non-linear problems."
+    },
+    {
+      "term": "Latent Variable",
+      "description": "A hidden variable that is not directly observed but inferred from data, commonly used in probabilistic models like Hidden Markov Models."
+    },
+    {
+      "term": "Loss Function",
+      "description": "A mathematical function that measures the difference between predicted and actual values in a model. Common loss functions include Mean Squared Error (MSE) for regression and Cross-Entropy Loss for classification. Lower loss values indicate better model performance."
+    },
+    {
+      "term": "Markov Decision Process (MDP)",
+      "description": "A mathematical framework for modeling decision-making in environments with stochastic outcomes, commonly used in reinforcement learning."
+    },
+    {
+      "term": "Mean Squared Error (MSE)",
+      "description": "A loss function that calculates the average squared difference between predicted and actual values, used in regression tasks."
+    },
+    {
+      "term": "Mini-Batch Gradient Descent",
+      "description": "A variation of gradient descent that updates model parameters using small subsets of training data, balancing efficiency and stability."
+    },
+    {
+      "term": "Overfitting",
+      "description": "A scenario where a model learns patterns too specifically from training data, including noise, leading to poor generalization on new data. Regularization techniques like dropout, early stopping, and L2 regularization mitigate overfitting."
+    },
+    {
+      "term": "Principal Component Analysis (PCA)",
+      "description": "A dimensionality reduction technique that transforms correlated features into a smaller set of uncorrelated components. PCA preserves the most critical information while reducing noise and computational complexity in high-dimensional datasets."
+    },
+    {
+      "term": "Recurrent Neural Network (RNN)",
+      "description": "A neural network architecture designed for sequential data processing. RNNs have memory cells that retain information from previous time steps, making them effective for tasks like speech recognition, time-series forecasting, and natural language modeling."
+    },
+    {
+      "term": "Regression",
+      "description": "A supervised learning task used to predict continuous numerical values based on input features. Common regression techniques include linear regression, polynomial regression, and support vector regression. Regression is widely used in finance, economics, and scientific modeling."
+    },
+    {
+      "term": "Reinforcement Learning (RL)",
+      "description": "A machine learning paradigm where an agent learns by interacting with an environment, receiving rewards or penalties based on actions taken. RL powers applications like robotics, game playing (e.g., AlphaGo), and autonomous decision-making."
+    },
+    {
+      "term": "Regularization",
+      "description": "A technique used to reduce model complexity and prevent overfitting by adding constraints to the learning process. L1 (Lasso) and L2 (Ridge) regularization are common methods that modify loss functions to penalize large coefficients."
+    },
+    {
+      "term": "Supervised Learning",
+      "description": "A machine learning approach where models learn from labeled training data to make predictions. It includes classification and regression tasks. Examples include spam filtering, medical diagnosis, and stock price prediction."
+    },
+    {
+      "term": "Unsupervised Learning",
+      "description": "A type of machine learning where models identify patterns and structures in unlabeled data. Common techniques include clustering and dimensionality reduction, used in anomaly detection and market segmentation."
+    },
+    {
+      "term": "Transfer Learning",
+      "description": "A technique where a pre-trained model, developed on a large dataset, is fine-tuned for a new but related task. Transfer learning significantly reduces training time and enhances performance in applications like image recognition and natural language processing."
+    }
+  ]
+  
